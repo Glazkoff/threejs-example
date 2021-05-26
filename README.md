@@ -1,24 +1,20 @@
-# vue-lab5
+# Лабораторная работа 5
 
-## Project setup
-```
-npm install
-```
+## Как запустить проект
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Скачать и установить Node.js (и npm в комплекте)
+2. Установить зависимости через `npm install`
+3. Глобально установить vue-cli с помощью команды `npm install -g @vue/cli vue-cli-service`
+4. Запустить проект через `npm run serve`
+5. Перейти в браузере по адресу, указанному в консоли адресу
 
-### Compiles and minifies for production
-```
-npm run build
-```
+---
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Задание лабораторной работы
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Добавить тени к элементам из ЛР4, использовав атрибут CastShadow: true;
+2. Добавить Skybox к сцене при помощи WebGLCubeRenderTarget и Cubemap или .fromEquiretangularTexture.
+3. Добавить источник пассивного звучания Audio.
+4. Создать несколько объектов с разными материалами (минимум 3).
+5. Добавить элемент точечного звучания PositionalAudio, прикрепив его к одному из созданных элементов.
+6. Добавить возможность перемещения по сцены и возможность "смотреть по сторонам".
